@@ -109,12 +109,9 @@ $ INSERT INTO foo (id, name) VALUES (uuid_generate_v4(), 'brian'); # GOTCHA: nee
 
 ========================= GIT
 $ git init
-$ git remote add origin git@github.com:brianspinos777/myapp-springboot.git
 $ git remote add origin https://github.com/brianspinos777/myapp-springboot.git
 $ git remote show origin
 $ git push -u -f origin master # -f to force changes
-
-
 
 
 .
